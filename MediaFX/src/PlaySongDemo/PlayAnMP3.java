@@ -28,7 +28,8 @@ public class PlayAnMP3 extends Application {
   @Override
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Capture.mp3";
+    // I changed the song here
+    String path = "songfiles/SwingCheese.mp3";		
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
@@ -64,3 +65,7 @@ public class PlayAnMP3 extends Application {
     }
   }
 }
+
+// Comment
+// and another one
+// I made some changes here
